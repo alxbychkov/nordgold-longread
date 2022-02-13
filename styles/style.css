@@ -288,6 +288,10 @@ img {
     padding-top: 60px;
 }
 
+.welcome-block__text.w-50 {
+    width: 50%;
+}
+
 .welcome-block__text p {
     margin-bottom: 30px;
 }
@@ -359,4 +363,23 @@ img {
     line-height: 35px;
     color: #595959;
     margin-top: 55px;
+}
+
+.bg-image {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.abs-rigth {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
 }
