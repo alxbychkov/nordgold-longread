@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
     <title>Добрососедство по-якутски</title>
 </head>
 
 <body>
     <section class="section-intro">
         <picture>
-            <img src="images/MG.png" alt="background">
+            <source media="(min-width: 768px)" srcset="images/MG.png">
+            <img src="images/MG_m.png" alt="background">
         </picture>
         <div class="intro-bottom">
             <div class="wrapper">
@@ -56,10 +58,17 @@
         </div>
         <div class="wrapper">
             <article class="welcome-block">
+                <div class="welcome-block__text w-100 show-tablet">
+                    <p>
+                        Nordgold давно избрал джентльменскую линию поведения и следует ей неукоснительно. Суть ее проста
+                        и действенна: компания аккумулирует вокруг себя позитивные изменения, помогая местным
+                        сообществам в решении насущных вопросов.
+                    </p>
+                </div>
                 <div class="welcome-block__avatar ring__avatar" style="background-image: url(images/avatar_1.png);">
                 </div>
-                <div class="welcome-block__text w-70">
-                    <p>
+                <div class="welcome-block__text w-70 w-100-tablet">
+                    <p class="show-desktop">
                         Nordgold давно избрал джентльменскую линию поведения и следует ей неукоснительно. Суть ее проста
                         и действенна: компания аккумулирует вокруг себя позитивные изменения, помогая местным
                         сообществам в решении насущных вопросов.
@@ -75,7 +84,7 @@
             </article>
 
             <article class="welcome-block">
-                <div class="welcome-block__text w-60">
+                <div class="welcome-block__text w-60 w-100-tablet">
                     <p>
                         Компания работает так в Якутии, как и на всех территориях своего присутствия: в России,
                         Казахстане, Буркина-Фасо и Гвинее. Представители крупного бизнеса несут особую ответственность
@@ -83,7 +92,7 @@
                         и сейчас.
                     </p>
                 </div>
-                <div class="welcome-block__avatar square__avatar">
+                <div class="welcome-block__avatar square__avatar show-desktop">
                     <picture>
                         <img src="images/avatar_2.png" alt="avatar">
                     </picture>
@@ -103,6 +112,7 @@
                 — не устает повторять генеральный директор Nordgold Николай Зеленский. Коллектив солидарен с
                 руководителем.
             </article>
+            <div class="text-image show-tablet" style="background-image: url(images/text_avatar_0.png)"></div>
         </div>
     </section>
     <section class="section section-text section-bg-color">
@@ -119,7 +129,7 @@
             <div class="threesome-block">
                 <div class="threesome__item">
                     <h2 class="h2__title treesome__title">
-                        Помощь адресная, польза всеобщая
+                        Помощь адресная,<br>польза всеобщая
                     </h2>
                     <div class="threesome__description">
                         Флагман компании Nordgold на юге Якутии золотодобывающий кластер Гросс, включающий действующие
@@ -131,7 +141,8 @@
                 </div>
                 <div class="threesome__image">
                     <picture>
-                        <img src="images/image_1.png" alt="image">
+                        <source media="(min-width: 1024px)" srcset="images/image_1.png">
+                        <img src="images/image_1_m.png" alt="image">
                     </picture>
                 </div>
             </div>
@@ -155,7 +166,7 @@
 
     <section class="section">
         <div class="wrapper">
-            <div class="two-column">
+            <div class="two-column column-tablet">
                 <div class="text-item">
                     В апреле Гросс и администрации Олёкминского района республики и Тянского национального наслега, а
                     также эвенкийская родовая община «Тяня» заключили очередные соглашения о сотрудничестве, в рамках
@@ -221,7 +232,7 @@
                 <img src="images/bg_big_1.png" alt="background-image">
             </picture>
             <div class="wrapper abs">
-                <div class="welcome-block__text w-50 text-color__white abs-rigth">
+                <div class="welcome-block__text w-50 w-100-tablet text-color__white abs-rigth plr-30-tablet">
                     <p>
                         В ближайшие годы планируется завершить монтаж оптоволоконной линии связи протяженностью 239 км с
                         пропускной способностью 10 Гбит в секунду. Это позволит подключить к высокоскоростному интернету
@@ -263,7 +274,8 @@
                 </div>
                 <div class="threesome__image">
                     <picture>
-                        <img src="images/image_2.png" alt="image">
+                        <source media="(min-width: 1024px)" srcset="images/image_2.png">
+                        <img src="images/image_2_m.png" alt="image">
                     </picture>
                 </div>
             </div>
@@ -476,7 +488,8 @@
                 </div>
                 <div class="threesome__image">
                     <picture>
-                        <img src="images/image_3.png" alt="image">
+                        <source media="(min-width: 1024px)" srcset="images/image_3.png">
+                        <img src="images/image_3_m.png" alt="image">
                     </picture>
                 </div>
             </div>
@@ -630,7 +643,8 @@
                 </div>
                 <div class="threesome__image">
                     <picture>
-                        <img src="images/image_8.png" alt="image">
+                        <source media="(min-width: 1024px)" srcset="images/image_8.png">
+                        <img src="images/image_8_m.png" alt="image">
                     </picture>
                 </div>
             </div>

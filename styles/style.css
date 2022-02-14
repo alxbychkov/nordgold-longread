@@ -111,13 +111,12 @@ img {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.33);
   display: block;
-  margin: 114px auto 0;
+  margin: 81px auto 0;
 }
 
 .h1__title {
   font-weight: 300;
-  font-size: 100px;
-  line-height: 100px;
+  line-height: 100%;
   color: #fff;
 }
 
@@ -137,13 +136,6 @@ img {
   background-color: #b78b27;
 }
 
-@media screen and (max-width: 768px) {
-  .h1_title {
-    font-size: 65px;
-    line-height: 65px;
-  }
-}
-
 .intro-bottom-footer {
   display: flex;
   justify-content: space-between;
@@ -158,12 +150,6 @@ img {
   font-size: 18px;
   line-height: 22px;
   color: #0b1d26;
-}
-
-@media screen and (min-width: 1380px) {
-  .section-intro-date {
-    margin-right: -20px;
-  }
 }
 
 .show-more {
@@ -223,12 +209,6 @@ img {
 
 .two-column .photo-item {
   width: 47%;
-}
-
-@media screen and (max-width: 561px) {
-  .two-column .photo-item {
-    width: 100%;
-  }
 }
 
 .section_bg-image {
@@ -343,6 +323,7 @@ img {
 
 .square__avatar {
   margin-right: 80px;
+  width: 28%;
 }
 
 .ring__avatar {
