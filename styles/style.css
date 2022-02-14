@@ -63,6 +63,7 @@ img {
   position: relative;
   background-color: #1b2c58;
   max-height: 100vh;
+  overflow: hidden;
 }
 
 .section-intro::before {
@@ -215,9 +216,6 @@ img {
   padding: 100px 0 0;
 }
 
-.section-text {
-}
-
 .text-quotes::before {
   content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAxIiBoZWlnaHQ9IjcxIiB2aWV3Qm94PSIwIDAgMTAxIDcxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNOTIuNjgyNCAwTDcxLjI5NDEgMEw1Ny4wMzUzIDI4LjRMNTcuMDM1MyA3MUw5OS44MTE4IDcxTDk5LjgxMTggMjguNEg3OC40MjM1TDkyLjY4MjQgMFpNMzUuNjQ3MSAwTDE0LjI1ODggMEwwIDI4LjRMMCA3MUg0Mi43NzY1TDQyLjc3NjUgMjguNEgyMS4zODgyTDM1LjY0NzEgMFoiIGZpbGw9IiNCNEI0QjQiLz4KPC9zdmc+Cg==);
   display: block;
@@ -259,12 +257,14 @@ img {
   background-color: #101e42;
   padding-top: 89px;
   padding-bottom: 109px;
+  margin-top: -1px;
 }
 
 .section-bg-color-light {
   background-color: #1b2c58;
   padding-top: 89px;
   padding-bottom: 109px;
+  margin-top: -1px;
 }
 
 .section-bg-color .text-quotes::before {
@@ -391,21 +391,6 @@ img {
   position: relative;
 }
 
-.abs {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.abs-rigth {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 0;
-}
-
 .bg-image:not(.no-padding) {
   background-position: center bottom 82%;
   background-repeat: no-repeat;
@@ -415,6 +400,10 @@ img {
 
 .simple__image {
   padding: 0 90px;
+}
+
+.simple__image.no-padding {
+  padding: 0;
 }
 
 .swiper {
