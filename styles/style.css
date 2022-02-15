@@ -402,9 +402,9 @@ img {
   padding: 100px 30px;
 }
 
-.simple__image {
+/* .simple__image {
   padding: 0 90px;
-}
+} */
 
 .simple__image.no-padding {
   padding: 0;
@@ -423,6 +423,7 @@ img {
   height: 60px;
   border-radius: 50%;
   cursor: pointer;
+  display: none;
 }
 
 .swiper-button-next::after,
